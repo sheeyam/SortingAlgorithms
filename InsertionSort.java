@@ -1,5 +1,5 @@
 public class InsertionSort {
-	void sort(int arr[]){
+	void sort(int arr[]) {
 		
 		int n = arr.length;
 		
@@ -16,11 +16,10 @@ public class InsertionSort {
 	}
 }
 	
-public static void main(String[] args) {
-	InsertionSort iSort = new InsertionSort();
-	int arr[] = { 12, 45, 2, 39, 77 };
-	iSort.sort(arr);
-		
+	public static void main(String[] args) {
+		InsertionSort iSort = new InsertionSort();
+		int arr[] = { 12, 45, 2, 39, 77 };
+		iSort.sort(arr);
 		for (int i = 0; i < arr.length; i++) {
 			System.out.println(arr[i]);
 		}
